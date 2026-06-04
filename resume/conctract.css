@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body{
+    height:700px;
+    width:100%;
+    background-image:url("https://www.mydock365.com/hubfs/The%20Dos%20and%20Donts%20of%20Contract%20Amendment.webp");
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.con{
+    width:400px;
+    height:500px;
+    background-color:rgba(0, 0, 0, 0.836);
+    opacity: 0.9 0.5;;
+    border-radius:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    box-shadow: 10px 10px 50px red;
+    color:white;
+    
+}
+a{
+    width: 350px;
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+    transition:0,3s;
+    margin:10px;
+    border: 2px solid white;
+    
+}
+a:hover{
+    color:black;
+    background-color:white;
+    transform:scale(1.2);
+
+}
+.homepage{
+    background-color:red;
+    color:white;
+    width:200px;
+    height:40px;
+    border-radius:20px;
+}
+img{
+    height:20px;
+    width:20px;
+    border-radius:50%;
+    margin-top:10 px;
+}

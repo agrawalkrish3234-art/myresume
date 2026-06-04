@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body{
+    height:800px;
+    width:100%;
+   background-image: url("https://getwallpapers.com/wallpaper/full/e/0/a/15276.jpg");
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   
+}
+.skillrev{
+    width: 400px;
+    height:700px;
+    background-color:rgb(0, 0, 0);
+    opacity:0.6;
+    margin-top:0px; 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 5px solid white;
+    box-shadow: 10px 10px 30px  red;
+    border-radius: 30px;
+
+
+}
+.skill2{
+    color:black;
+    background-color:white;
+    margin: 20px;
+    width: 300px;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    border-radius:20px;
+}
+.skillname{
+    background-color:rgb(0, 0, 0);
+    color:white;
+    margin: 20px;
+    width: 300px; display:flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 12px;
+    border: 3px solid white;
+}
+button.homepage{
+    background-color: white;
+    color:black;
+    margin:20px;
+    width:200px;
+    height:40px;
+    border-radius:40px;
+    list-style: none;
+}
+.homepage a{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.homepage a:hover{
+    color:white;
+    background-color:black;
+    transform:scale(1.2)
+}
+.homepage a:hover{
+    color:white;
+    background-color:black;
+}
